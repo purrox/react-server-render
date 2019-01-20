@@ -19,6 +19,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Menu.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SessionCard.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SpeakerCard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index.js" afterPath="$PROJECT_DIR$/pages/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/sessions.js" afterPath="$PROJECT_DIR$/pages/sessions.js" />
     </list>
@@ -98,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/pages/sessions.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+              <caret line="42" column="67" lean-forward="false" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#42#81#0" expanded="true" />
@@ -107,7 +108,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SessionCard.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SessionCard.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SessionCard.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -139,16 +150,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_documents.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/_documents.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -168,7 +169,6 @@
         <option value="$PROJECT_DIR$/pages/_documents.js" />
         <option value="$PROJECT_DIR$/pages/bootstrap.js" />
         <option value="$PROJECT_DIR$/src/Footer.js" />
-        <option value="$PROJECT_DIR$/pages/sessions.js" />
         <option value="$PROJECT_DIR$/pages/speakers.js" />
         <option value="$PROJECT_DIR$/pages/speaker.js" />
         <option value="$PROJECT_DIR$/server.js" />
@@ -180,6 +180,8 @@
         <option value="$PROJECT_DIR$/src/SpeakerCard.js" />
         <option value="$PROJECT_DIR$/src/Header.js" />
         <option value="$PROJECT_DIR$/src/SessionCard.js" />
+        <option value="$PROJECT_DIR$/pages/sessions.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -238,20 +240,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-server-render" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-server-render" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,12 +343,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547920599186</updated>
-      <workItem from="1547920600450" duration="5976000" />
+      <workItem from="1547920600450" duration="6162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5976000" />
+    <option name="totallyTimeSpent" value="6162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -549,10 +537,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SessionCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="65" lean-forward="false" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/sessions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+          <caret line="42" column="67" lean-forward="false" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#42#81#0" expanded="true" />
@@ -560,10 +556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SessionCard.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="65" lean-forward="false" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+        <state relative-caret-position="244">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding />
         </state>
       </provider>

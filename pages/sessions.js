@@ -40,7 +40,7 @@ class sessions extends Component {
                         <div className="card-deck">
                             { this.state.sessions.map(
                                 data =>
-                                    <SessionCard session={data}/>
+                                    <SessionCard session={data} key/>
                             )}
                         </div>
                     </div>
