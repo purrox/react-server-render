@@ -3,7 +3,6 @@
  */
 
 import React, {Component} from 'react';
-import Link from "next/link";
 import axios from 'axios';
 
 class Index extends Component{
@@ -45,20 +44,19 @@ class Index extends Component{
 
     render(){
         return (
-           <div>
-               <Link href = "sessions">
-                   <a>Session</a>
-               </Link>
-
-              <ol>
-                  { this.state.speakerData.map(
-                      data =>
-                          <li key={data.id}>
-                              {`${data.firstName} ${data.lastName}`}
-                          </li>
-                  )}
-              </ol>
-           </div>
+            <div>
+                <div className="container">
+                    <div className="row">
+                        <div className="col margintopbottom">
+                            <h2>Home</h2>
+                            <h6 className="margintopbottom20">
+                                Silicon Valley Code Camp is a community event where
+                                developers learn from fellow developers.
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
         )
     }
 

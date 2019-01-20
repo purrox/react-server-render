@@ -4,18 +4,19 @@
 
 import React, {Component} from 'react';
 import axios from 'axios';
+import SessionCard from '../src/SessionCard'
 
 class sessions extends Component {
-    static async getInitialProps(){
+    static async getInitialProps() {
         return axios.get('http://localhost:4000/sessions')
-            .then( data => {
-                return{
+            .then(data => {
+                return {
                     serviceError: false,
-                    speakerData: data.data
+                    sessions: data.data
                 };
             })
-            .catch( err=>{
-                return{
+            .catch(err => {
+                return {
                     serviceError: true,
                     message: err.message
                 };
@@ -27,23 +28,23 @@ class sessions extends Component {
         this.state = {
             serviceError: props.serviceError,
             message: props.message,
-            speakerData: props.speakerData
+            sessions: props.sessions
         }
     }
 
     render() {
         return (
             <div>
-
-                <ol>
-                    { this.state.speakerData.map(
-                        data =>
-                            <li key={data.id}>
-                                {data.title}
-                            </li>
-                    )}
-                </ol>
-
+                <div className="container">
+                    <div className="row">
+                        <div className="card-deck">
+                            { this.state.sessions.map(
+                                data =>
+                                    <SessionCard session={data}/>
+                            )}
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }

@@ -1,0 +1,22 @@
+.large {
+    padding: 50px
+}
+
+
+.margintopbottom20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.margintopbottom10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cardmin {
+    min-width: 300px;
+}
+
+.logo > img{
+    width: 120px;
+}
