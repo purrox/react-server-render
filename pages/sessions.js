@@ -5,10 +5,21 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import SessionCard from '../src/SessionCard'
+import getConfig from 'next/config';
+const {serverRuntimeConfig, publicRuntimeConfig} = getConfig();
+class Sessions extends Component {
 
-class sessions extends Component {
+    static GetSpeakersUrl() {
+        if (process.env.NODE_ENV === "production") {
+            return process.env.RESTURL_SPEAKERS_PROD
+                || publicRuntimeConfig.RESTURL_SPEAKERS_PROD;
+        } else {
+            return process.env.RESTURL_SPEAKERS_DEV;
+        }
+    }
+
     static async getInitialProps() {
-        return axios.get('http://localhost:4000/sessions')
+        return axios.get(Sessions.GetSpeakersUrl())
             .then(data => {
                 return {
                     serviceError: false,
@@ -50,4 +61,4 @@ class sessions extends Component {
     }
 }
 
-export default sessions;
+export default Sessions;

@@ -2,7 +2,6 @@
     padding: 50px
 }
 
-
 .margintopbottom20 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -17,6 +16,12 @@
     min-width: 300px;
 }
 
-.logo > img{
+.logo > img {
     width: 120px;
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+         padding: 2rem 1rem;
+    }
 }
