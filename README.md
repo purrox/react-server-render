@@ -1,6 +1,6 @@
 ## React server render (SSR)
 
-This is an sample project for **Server Side Render(SSR)** Application with React and Next.js
+This is an sample project for **Server Side Render(SSR)** Application with React and Next.js, from a Pluralsight course [React Apps for Beginners](https://app.pluralsight.com/library/courses/building-server-side-rendered-react-apps-beginners/)
 
 ### Getting Started
 
