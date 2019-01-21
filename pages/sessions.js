@@ -11,10 +11,10 @@ class Sessions extends Component {
 
     static GetSpeakersUrl() {
         if (process.env.NODE_ENV === "production") {
-            return process.env.RESTURL_SPEAKERS_PROD
+            return process.env.RESTURL_SESSIONS_PROD
                 || publicRuntimeConfig.RESTURL_SPEAKERS_PROD;
         } else {
-            return process.env.RESTURL_SPEAKERS_DEV;
+            return process.env.RESTURL_SESSIONS_DEV;
         }
     }
 

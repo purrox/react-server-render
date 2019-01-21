@@ -13,6 +13,6 @@ RUN npm install
 COPY . /usr/src
 
 RUN npm run build
-EXPOSE 3000
+EXPOSE 5000
 
 CMD ["npm", "start"]
