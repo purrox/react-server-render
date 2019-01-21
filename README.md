@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 ```sh
  $ npm install
 ```
-###### Run locally
+###### Run json server
 ```sh
  $ jsonserver db.json
 ```
